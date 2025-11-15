@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import List
-import rules
+from . import rules
 
 def scan_directory(directory_path, recursive=False):
     directory = Path(directory_path)
